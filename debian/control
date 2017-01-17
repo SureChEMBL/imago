@@ -1,0 +1,13 @@
+Source: imago
+Section: universe/graphics
+Priority: optional
+Maintainer: Yury Zavarin <yzavarin@ebi.ac.uk>
+Build-Depends:
+ debhelper (>= 9),
+Standards-Version: 3.9.7
+
+Package: imago
+Architecture: amd64
+Depends:
+ ${misc:Depends},
+Description: Chemistry Structure OCR Tool
